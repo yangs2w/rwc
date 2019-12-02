@@ -1,0 +1,49 @@
+body{
+    background-color: #eeeeee;
+}
+.login-form{
+    position: relative;
+    width: 520px;
+    height: 340px;
+    border: 1px solid #cccccc;
+    border-radius: 12px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.login-text{
+    user-select: none;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+.login-text span{
+    font-size: 18px;
+    color: #1a81d0;
+}
+.form {
+    padding: 24px;
+}
+.form .layui-form input{
+    border-radius: 4px;
+}
+.form .layui-btn{
+    width: 100%;
+    border-radius: 4px;
+    height: 42px;
+}
+.form .layui-form-item .layui-input-block{
+    margin: 0;
+}
+.go-regist{
+    padding: 24px;
+}
+.go-regist a{
+    color: #01AAED;
+}
+.go-regist a:hover{
+    text-decoration: underline;
+}
+.layui-btn.layui-btn-disabled{
+    background-color: #009688;
+}
